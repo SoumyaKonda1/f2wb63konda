@@ -6,4 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('Music', { title: 'Search Results Music' });
 });
 
-module.exports = router;
+module.exports = router; 
