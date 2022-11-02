@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET music page. */
 router.get('/', function(req, res, next) {
-  res.render('Music', { title: 'Search Results Music' });
+  res.render('cereal', { title: 'Search Results cereal Breakfast' });
 });
 
 module.exports = router; 
